@@ -5,6 +5,7 @@ const ROLE = "_way";
 const USER_AVATAR = "_avt";
 const USER_FULLNAME = "_fullname";
 const EMAIL = "_email";
+const REDIRECT_URL = "_redirectUrl";
 
 const API_SERVER = process.env.NEXT_PUBLIC_API_SERVER;
 
@@ -16,7 +17,8 @@ const constants = {
     ROLE,
     USER_AVATAR,
     USER_FULLNAME,
-    EMAIL
+    EMAIL,
+    REDIRECT_URL
 }
 
 
