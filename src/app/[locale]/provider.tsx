@@ -18,6 +18,7 @@ const ProviderComponents = ({ children }: Props) => {
             <ProviderI18n>
                 <StyledComponentsRegistry>
                     <ThemeProvider theme={themes.default}>
+                        <GlobalStyle />
                         <AntdRegistry>
                             <ConfigProvider
                                 theme={{

@@ -1,5 +1,6 @@
 'use client'
 
+import LandingLayout from "@/components/layouts/LandingLayout";
 import React from "react";
 
 export default function LandingRootLayout({ children }: { children: React.ReactNode }) {
@@ -10,8 +11,7 @@ export default function LandingRootLayout({ children }: { children: React.ReactN
 
     return (
         <>
-            <h4 className="text-center text-blue-800">Landing</h4>
-            {children}
+            <LandingLayout>{children}</LandingLayout>
         </>
     )
 }

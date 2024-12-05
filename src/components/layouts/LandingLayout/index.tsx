@@ -1,6 +1,8 @@
+import Header from "./Header";
+
 function LandingLayout({ children }: { children: React.ReactNode }) {
     return <>
-        Landing Layout
+        <Header />
         {children}
     </>;
 }
